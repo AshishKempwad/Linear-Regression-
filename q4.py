@@ -69,6 +69,18 @@ class Weather:
         predict_labels=X1.dot(new_weights)
         print(predict_labels.shape)
         return predict_labels
+    
+    
+    
+    #Run the below code to run to above code:-
+    '''
+    
+from q4 import Weather as wr
+model4 = wr()
+model4.train('./Datasets/q4/train.csv') # Path to the train.csv will be provided 
+prediction4 = model4.predict('./Datasets/q4/test.csv') # Path to the test.csv will be provided
+# prediction4 should be Python 1-D List
+'''
         
         
         
